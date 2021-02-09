@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 2em;
+  font-weight: 400;
+}
+.btn{
+  margin-right: 10px;
+}
+.btn:hover{
+  color: #ff577f;
+}
+.container-fluid {
+    padding: 5% 15% 0% 15%;
+}
+
+/* Title Section + NavBar */
+#title {
+  background-color: #ff884b;
+  padding-bottom: 30px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.0em;
+  font-weight: 700;
+  align-content: flex-start;
+}
+
+.navbar {
+  padding:0 0 4.5em 0;
+}
+
+.nav-item{
+  padding: 0px 18px 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.pitch-info {
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+}
+
+/* Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  padding-top: 7%;
+  position: relative;
+  left: 134px;
+}
+/* Features section */
+#features {
+  background-color:#fff;
+  padding: 7% 15% 7% 15%;
+  line-height: 1.5;
+  font-family: "Ubuntu";
+  font-weight: 400;
+
+}
+
+.fas {
+  padding-bottom: 20px;
+  color: #ffc764;
+}
+
+.fas:hover{
+  color: #ff577f;
+}
+
+/* Testimonials and Press */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ff577f;
+  color: white;
+}
+
+.testimonial-img{
+  width: 20%;
+  border-radius: 80%;
+  margin: 20px;
+}
+#press {
+  background-color: #ff577f;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel */
+
+/* Pricing Cards */
+#pricing {
+  font-family: 'Montserrat';
+  padding-bottom: 50px;
+}
+.pricing-info{
+  padding: 3% 2%;
+}
+.pricing-info-title{
+  font-size: 3.0em;
+  font-weight: 900;
+}
+.pricing-info p{
+  font-size: 1.5em;
+}
+.card-header {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.price-sub{
+  font-weight: 900;
+  font-size: 2.5em;
+}
+.card{
+  height: 100%;
+}
+.card-each{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #007965;
+}
+.title-last {
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3.5em;
+  padding-bottom: 3%;
+}
+.cta-btn{
+  padding-bottom: 7%;
+}
+
+/* Footer */
+ #footer {
+  background-color: #aee6e6;
+  padding: 3% 15%;
+  color: black;
+}
+
+.footer-text {
+  padding-top: 3%;
+}
+
+.fab:hover{
+color: #ff577f;
+}
+
+.far:hover{
+  color: #ff577f;
+}
+
+
+/* Media Query Breakpoints */
+@media (max-width: 990px) {
+
+  .navbar-brand{
+    text-align: center;
+  }
+#title {
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
